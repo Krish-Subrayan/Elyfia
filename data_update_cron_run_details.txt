@@ -1,0 +1,44 @@
+https://platform.gethealth.io/v1/health/account/user/
+
+{"user":{"uid": "1"},"access_token":"xxxxxxx"}
+
+Main Token:
+04C4DF4AA2BCED4C6D48BCFB33426A999B95DB75
+
+
+https://platform.gethealth.io/v1/health/account/calories_burnt/?access_token=04C4DF4AA2BCED4C6D48BCFB33426A999B95DB75&limit=200&start_date=2017-08-01T00:00:00&end_date=2017-08-01T23:59:59
+https://platform.gethealth.io/v1/health/account/calories_burnt/?access_token=04C4DF4AA2BCED4C6D48BCFB33426A999B95DB75limit=200&start_date=2017-08-10T00%3A00%3A00&end_date=2017-08-10T23%3A59%3A59
+
+
+ID	GetHealthID	Access Token
+1240	ed07f6e7_9008_41f4_9533_bb48aa515f3e	4ED8FF78790874EB9827D2D193C033CD4F66D3EC
+1270	ffbde5cf_e58a_44f6_9c83_18545c47e392	51FA620A0346C9DD46812E4FEF4F7711C57DB3E0
+1271	74ca243b_f9ab_4818_b756_443f5ba3429b	8AE88F4C0A5A482E202872F7A4B522690806DB9F
+1272	06891007_5dd6_4df3_a0c1_c887a33c741b	6AC2B99A4AE660F3FADCA0BED1F6D2E8DA21A60F
+1273	bb881634_0d69_483b_bf72_badc7b3a863f	1CAD0458BA57BF10AEC7BC323461BE1E35D6D779
+
+
+  "status": "success",
+  "user": {
+    "profile": null,
+    "access_token": "9448B78E2F5B02B1DF8F6515C81E4857DA5A3CC9",
+    "gethealthID": "dc1886c0_b15d_4f34_99b7_2629ffd23b61"
+  }
+
+  https://platform.gethealth.io/v1/health/user/devices/?access_token=9448B78E2F5B02B1DF8F6515C81E4857DA5A3CC9
+
+  https://platform.gethealth.io/v1/health/account/calories_burnt?access_token=04C4DF4AA2BCED4C6D48BCFB33426A999B95DB75&limit=200&start_date=2017-08-01T00:00:00&end_date=2017-08-01T23:59:59
+
+
+
+
+
+URL for cron:
+http://local.elyfia.com/pull_patients_from_gethealth.php
+http://local.elyfia.com/pull_devices_for_patients.php
+http://local.elyfia.com/pull_calories_info.php
+http://local.elyfia.com/pull_steps_info.php
+
+
+https://platform.gethealth.io/v1/health/user/devices?access_token=4ED8FF78790874EB9827D2D193C033CD4F66D3EC
+
